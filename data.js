@@ -4,10 +4,8 @@ var row = 1;
 document.querySelector("button").addEventListener("click",displayDetails);
 
 
-function refreshPage()
-{
-    window.location.reload(false);
-}
+
+
 
 
 function displayDetails()
@@ -77,4 +75,11 @@ if(myAge=="")
     cell4.innerHTML= myLoc;
 
     row++;
+
+    $("#name").val("");
+    $("#age").val("");
+    $("#comp").val("");
+    $("#loc").val("");
+
+    
 }
