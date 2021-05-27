@@ -1,0 +1,29 @@
+ <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Get Details Display in Table</title>
+        <link rel="stylesheet" type="text/css" href="../Css/data.css"> 
+        
+    </head>
+    <body>
+        <div id="container">
+            <div id="nameDiv" class="input">Name:<input id="name" type="text" autocomplete="off" placeholder="Your Name"/><br><span id="errormsg"></span></div>
+            <div  class="input">Age:<input id="age" type="text" autocomplete="off" placeholder="Your Age"/><br><span id="errorage"></span></div>
+            <div  class="input">Company:<input id="comp" type="text" placeholder="Your Company"/><br><span id="errorcom"></span></div>
+            <div  class="input">Location:<input id="loc" type="text" placeholder="Your Location"/><br><span id="errorloc"></span></div>
+            <button id="entry">Submit</button>
+        </div>
+
+        <table id="display">
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Company</th>
+                <th>Location </th>
+            </tr>
+        </table>
+
+        <script src="../js/data.js"></script>
+    </body>
+</html>
